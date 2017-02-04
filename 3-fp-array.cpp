@@ -14,7 +14,7 @@ void (*fpArray[])() = { fa, fb, fc, fd, fe };
 int main (int argc, char ** argv) {
 	
 	//Let"s loop over the fpArray and call the functions one by one
-	for(auto & fp: fpArray) {
+	for(auto fp: fpArray) {
 		fp();
 	}
 
