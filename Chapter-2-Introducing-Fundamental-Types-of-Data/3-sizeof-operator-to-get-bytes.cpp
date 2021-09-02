@@ -8,7 +8,7 @@ int main () {
 	char c = 'c';
 	float f = 5.2f;
 	double d = 9.2;
-	string s {"I am Suman Barick... I am Codotronix... "};
+	string s { "I am Suman Barick... I am Codotronix... " };
 
 	cout	<< endl
 			<< "size of int i is " << sizeof(i) << " bytes"
